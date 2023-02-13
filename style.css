@@ -1,0 +1,35 @@
+h2 {
+	color: Blue;
+}
+
+.header {
+	background-color: #7A942E;
+	padding: 5%;
+	display: flex;
+	align-items: center;
+}
+
+.header li {
+	display: inline;
+	padding: 5%;
+}
+
+.header-image {
+	padding-right: 5%;
+	border-radius: 50%;
+}
+
+.intro {
+	display: inline;
+	padding: 2%;
+}
+
+.intro img {
+	width: 3%;
+	padding-right: 1%;
+}
+
+.content {
+	width: 33%;
+	margin-left: 33%;
+}
