@@ -1,27 +1,42 @@
+body {
+	background-color: #D1D2B1;
+}
+
+h1 {
+	font-family: "Arial";
+	font-size: 5em;
+}
+
 h2 {
-	color: Blue;
+	font-family: "Arial";
+	font-size: 2em;
+}
+
+p {
+	font-family: "Arial";
+	font-size: 1.3em;
 }
 
 .header {
-	background-color: #7A942E;
-	padding: 5%;
 	display: flex;
 	align-items: center;
+	padding-bottom: 3%;
+	border-bottom: 0.3em solid #000000;
 }
 
-.header li {
+.header h2 {
 	display: inline;
-	padding: 5%;
+	padding-right: 5%;
 }
 
 .header-image {
-	padding-right: 5%;
+	margin-left: 5%;
+	margin-right: 10%;
 	border-radius: 50%;
 }
 
 .intro {
 	display: inline;
-	padding: 2%;
 }
 
 .intro img {
@@ -30,6 +45,11 @@ h2 {
 }
 
 .content {
-	width: 33%;
-	margin-left: 33%;
+	background-color: #FFFFFF;
+	border-radius: 50px;
+	width: 64%;
+	min-width: 30em;
+	height: 100%;
+	padding: 2%;
+	margin-left: 16.5%;
 }
